@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.omni"
-  version="2.1.0"
-  name="Omni"
-  provider-name="braz">
+  id="skin.poly"
+  version="0.0.0"
+  name="Poly"
+  provider-name="Zang">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.toolbox" version="1.0.0"/>
@@ -12,16 +12,15 @@
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Omni by braz</summary>
-		<summary lang="en_US">Omni by braz</summary>
+		<summary lang="en_GB">Poly by Zang</summary>
+		<summary lang="en_US">Poly by Zang</summary>
 		<description lang="en_GB">A Kodi skin with an omnipresent menu.</description>
 		<description lang="en_US">A Kodi skin with an omnipresent menu.</description>
 		<platform>all</platform>
 		<license>CC BY-NC-SA 4.0</license>
-		<forum>https://forum.kodi.tv/forumdisplay.php?fid=271</forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/braz96/skin.omni</source>
+		<source>https://github.com/zang74/skin.poly</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -36,6 +35,6 @@
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 			<screenshot>resources/screenshot-10.jpg</screenshot>
 		</assets>
-		<news>2.1.0[CR]- Complete redesign of home window with static menu and widgets, can enable/disable items in skin settings.[CR]- Many other fixes and minor changes.</news>
+		<news>Forked from OMNI</news>
 	</extension>
 </addon>
